@@ -1,3 +1,8 @@
+#How this code Works:
+#The program starts by finding the 'O' position, then uses breadth-first search (BFS) algorithm to explore the maze.
+#As it explores, the maze is updated in the terminal, showing the current path in red.
+#Once the 'X' is reached, the complete path is highlighted.
+
 import curses
 from curses import wrapper
 import queue
